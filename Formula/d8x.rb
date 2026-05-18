@@ -1,21 +1,21 @@
 class D8x < Formula
   desc "CLI for provisioning, deploying, and managing D8X trader backend infrastructure"
   homepage "https://github.com/D8-X/d8x-cli"
-  version "1.4.25"
+  version "1.4.26"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/D8-X/d8x-cli/releases/download/v1.4.25/d8x-macos-arm64.tar.gz"
-      sha256 "2f662b02838ad4484ae7b79b77545bdc25247c9697bc25908bcd6da16f5740b0"
+      url "https://github.com/D8-X/d8x-cli/releases/download/v1.4.26/d8x-macos-arm64.tar.gz"
+      sha256 "5cad6e90fd56a2bb8073d93adf13999b315e6fd4c771269aef1d3fe25115431a"
     else
-      url "https://github.com/D8-X/d8x-cli/releases/download/v1.4.25/d8x-macos-amd64.tar.gz"
-      sha256 "d6bcb0b832d0878361b87ff2a0113bb85a988d76afa7c4691da7a802777211f5"
+      url "https://github.com/D8-X/d8x-cli/releases/download/v1.4.26/d8x-macos-amd64.tar.gz"
+      sha256 "8989090138699133b23df54aebf0585a71c63fb31c319ed4d2a89fcedfb76a63"
     end
   end
 
   on_linux do
-    url "https://github.com/D8-X/d8x-cli/releases/download/v1.4.25/d8x-linux-amd64.tar.gz"
-    sha256 "e37050b73738988f5873ffef827875cc385c681e62e3fea55dc55da416989fe4"
+    url "https://github.com/D8-X/d8x-cli/releases/download/v1.4.26/d8x-linux-amd64.tar.gz"
+    sha256 "2e6072cd1afdc6ebfe13868258391ec36e82e802c01415840529059a4ea01235"
   end
 
   def install
